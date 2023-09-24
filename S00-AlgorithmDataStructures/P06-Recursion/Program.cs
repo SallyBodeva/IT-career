@@ -7,6 +7,7 @@ namespace P06_Recursion
         static void Main()
         {
             PrintNums(10);
+            Console.WriteLine(SumNaturalNums(10));
         }
         public static void PrintNums(int n)
         {
@@ -15,7 +16,18 @@ namespace P06_Recursion
                 return;
             }
             PrintNums(n - 1);
-            Console.Write(n+" ");
+            Console.Write(n + " ");
+        }
+        public static int SumNaturalNums(int n)
+        {
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return n + SumNaturalNums(n - 1);
+            }
         }
     }
 }
