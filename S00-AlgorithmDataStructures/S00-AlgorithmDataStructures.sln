@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01-ATMMachine", "P01-ATMMachine\P01-ATMMachine.csproj", "{28702B52-084F-4D47-BCB7-1B879D7C9256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-ATMMachine", "P01-ATMMachine\P01-ATMMachine.csproj", "{28702B52-084F-4D47-BCB7-1B879D7C9256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02-Permutation", "P02-Permutation\P02-Permutation.csproj", "{DFE8DAF2-3F0E-4AB1-9B59-0655E15A7DDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-Permutation", "P02-Permutation\P02-Permutation.csproj", "{DFE8DAF2-3F0E-4AB1-9B59-0655E15A7DDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03-Trianagle", "P03-Trianagle\P03-Trianagle.csproj", "{94FF0902-A125-4539-B01E-FC80FEBD5E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-Trianagle", "P03-Trianagle\P03-Trianagle.csproj", "{94FF0902-A125-4539-B01E-FC80FEBD5E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-PrimeNumbers", "P04-PrimeNumbers\P04-PrimeNumbers.csproj", "{34AB72BB-D172-4560-BEBE-7794CC4F68F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-PrimeNumbers", "P04-PrimeNumbers\P04-PrimeNumbers.csproj", "{34AB72BB-D172-4560-BEBE-7794CC4F68F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-Fires", "P05-Fires\P05-Fires.csproj", "{BC5A04F9-D7D1-4C43-9A81-0012FE253542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06-Recursion", "P06-Recursion\P06-Recursion.csproj", "{D0FC3D1E-18DE-46ED-8BFA-F0F1EF99E46A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{34AB72BB-D172-4560-BEBE-7794CC4F68F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AB72BB-D172-4560-BEBE-7794CC4F68F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AB72BB-D172-4560-BEBE-7794CC4F68F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5A04F9-D7D1-4C43-9A81-0012FE253542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5A04F9-D7D1-4C43-9A81-0012FE253542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5A04F9-D7D1-4C43-9A81-0012FE253542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5A04F9-D7D1-4C43-9A81-0012FE253542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FC3D1E-18DE-46ED-8BFA-F0F1EF99E46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FC3D1E-18DE-46ED-8BFA-F0F1EF99E46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FC3D1E-18DE-46ED-8BFA-F0F1EF99E46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FC3D1E-18DE-46ED-8BFA-F0F1EF99E46A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
