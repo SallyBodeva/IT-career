@@ -29,5 +29,13 @@ namespace P06_Recursion
                 return n + SumNaturalNums(n - 1);
             }
         }
+        public static int sumOddNum(int n)
+        {
+            if (n==1)
+            {
+                return 1;
+            }
+            return n + sumOddNum(n - 2);
+        }
     }
 }
